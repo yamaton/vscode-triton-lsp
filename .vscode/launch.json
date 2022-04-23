@@ -16,10 +16,10 @@
 			"outFiles": [
 				"${workspaceRoot}/out/**/*.js"
 			],
-			// "preLaunchTask": {
-			// 	"type": "npm",
-			// 	"script": "watch"
-			// }
+			"preLaunchTask": {
+				"type": "npm",
+				"script": "watch"
+			}
 		},
 		{
 			"type": "node",

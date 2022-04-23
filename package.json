@@ -24,7 +24,7 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -b ./",
+    "watch": "tsc -w",
     "pretest": "tsc -b",
     "lint": "eslint src --ext ts",
     "test": "mocha --require ts-node/register src/test/**/*.ts"
